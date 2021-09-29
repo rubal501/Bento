@@ -55,4 +55,6 @@ function displayWeather() {
   iconElement.innerHTML = `<img src="icons/OneDark/${weather.iconId}.png"/>`;
   tempElement.innerHTML = `${weather.temperature.value}°<span class="darkfg">${tempUnit}</span>`;
   descElement.innerHTML = weather.description;
+  
+  
 }
